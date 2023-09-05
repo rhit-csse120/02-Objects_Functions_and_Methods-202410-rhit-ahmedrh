@@ -5,8 +5,8 @@ and using the DOT trick to discover them.
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         henry ahmed.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -45,6 +45,9 @@ def main():
 
 
 def strings_1(string):
+    s1 = string.lower()
+    s2 = s1.replace('e','Z')
+    print(s2)
     """
     Prints the given string, but with:
       -- All characters converted to lower case, and then
@@ -56,7 +59,7 @@ def strings_1(string):
       :type string: str
     """
     ###########################################################################
-    # TODO: 2. Implement and test this function, per its doc-string above.
+    # done: 2. Implement and test this function, per its doc-string above.
     #   Use the appropriate   string   methods to implement the function.
     #   Tests are already written for you in  main  above.
     #  _
@@ -67,6 +70,9 @@ def strings_1(string):
 
 
 def strings_2(string):
+    s1 = string.replace("xxx", "Siri")
+    s2 = s1.title()
+    print(s2)
     """
     Prints the given string, but with:
       -- Each occurrence of   xxx   replaced by   Siri, and then
@@ -80,7 +86,7 @@ def strings_2(string):
       :type string: str
     """
     ###########################################################################
-    # TODO: 3. Implement and test this function, per its doc-string above.
+    # done: 3. Implement and test this function, per its doc-string above.
     #   Use the appropriate   string   methods to implement the function.
     #   Tests are already written for you in  main  above.
     #  _
