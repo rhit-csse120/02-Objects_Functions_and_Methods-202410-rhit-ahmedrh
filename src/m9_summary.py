@@ -4,8 +4,8 @@ An exercise that summarizes what you have learned in this Session.
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         henry ahmed.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 ###############################################################################
@@ -27,3 +27,21 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 #           - Move forward twice the given distance.
 #     d.  Calls main.
 ###############################################################################
+import rosegraphics as rg
+
+
+def main():
+    window = rg.TurtleWindow()
+    move(rg.SimpleTurtle(), 30, 'red')
+    move(rg.SimpleTurtle(), 50, 'green')
+    window.close_on_mouse_click()
+
+
+def move(turtle, distance, color):
+    turtle.backward(distance)
+    turtle.pen.color = color
+    turtle.left(90)
+    turtle.forward(2*distance)
+
+
+main()
