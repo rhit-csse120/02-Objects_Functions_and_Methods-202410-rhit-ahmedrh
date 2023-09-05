@@ -9,7 +9,7 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 
 
 ###############################################################################
-# TODO: 2.
+# done: 2.
 #   Define a complete program that:
 #     a.  Imports  rosegraphics
 #     b.  Defines a   main   function that:
