@@ -46,7 +46,7 @@ def main():
 
 def strings_1(string):
     s1 = string.lower()
-    s2 = s1.replace('e','Z')
+    s2 = s1.replace('e', 'Z')
     print(s2)
     """
     Prints the given string, but with:

@@ -9,7 +9,7 @@ Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
 import math
 
 ###############################################################################
-# TODO: 2.
+# done: 2.
 #   Locate the syntax (notation) errors in this file
 #   by looking for red underlines.
 #  _
