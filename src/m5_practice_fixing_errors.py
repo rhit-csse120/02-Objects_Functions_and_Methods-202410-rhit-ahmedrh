@@ -4,8 +4,9 @@ This module lets you practice correcting SYNTAX (notation) errors.
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         henry ahmed.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
+import math
 
 ###############################################################################
 # TODO: 2.
@@ -37,16 +38,16 @@ import rosegraphics as rg
 def main():
     """ Calls the other functions in this module to demo them. """
     print_math()
-    tutle_fn()
+    turtle_fun()
 
 
-def print_math:
+def print_math():
     """ Prints some calculated values. """
-    x = cos(pi)
+    x = math.cos(math.pi)
     print(x)
 
-    y = sin(pi)
-    print(The sine of PI is, y)
+    y = math.sin(math.pi)
+    print("The sine of PI is ", y)
 
 
 def turtle_fun():
@@ -58,20 +59,21 @@ def turtle_fun():
     window = rg.TurtleWindow()
 
     alan = rg.SimpleTurtle()
-alan.pen = rg.Pen('blue', 30)
+    alan.pen = rg.Pen('blue', 30)
     alan.paint_bucket = rg.PaintBucket('yellow')
 
-    alan.back(3 * (47 + 16)
-    al.begin_fill()
-    alan.circle(25)
+    alan.backward(3 * (47 + 16))
+    alan.begin_fill()
+    alan.draw_circle(25)
     alan.end_fill()
 
-    forward(200)
+    alan.forward(200)
 
     window.close_on_mouse_click()
 
+
 ###############################################################################
-# TODO: 3.
+# done: 3.
 #  All professional code must meet the STANDARDS of the organization (company).
 #  For us, we will use the widely-used PEP 8 standard.
 #  AFTER you have corrected the errors in the above,
