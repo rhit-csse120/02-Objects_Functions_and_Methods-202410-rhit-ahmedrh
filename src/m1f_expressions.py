@@ -5,14 +5,14 @@ and NAMES and ASSIGNMENT, e.g.    n = n + 1
 Authors: David Mutchler, Yiji Zhang, Mark Hays, Derek Whitley, Vibha Alangar,
          Matt Boutell, Dave Fisher, Sriram Mohan, Mohammed Noureddine,
          Amanda Stouder, Curt Clifton, Valerie Galluzzi, their colleagues and
-         PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Henry Ahmed.
+"""  # done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import random
 import math
 
 ###############################################################################
-# TODO: 2.
+# done: 2.
 #   Do this module while you watch the Session 2 Preparation video for
 #       m1_expressions
 #   Do the exercises in this module when the video says to do so.
@@ -26,7 +26,7 @@ import math
 ###############################################################################
 
 ###############################################################################
-# TODO: 3.  [Do this when the video says to do so.]
+# done: 3.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program, paying close attention
 #   to what gets printed.  (The video shows you how to "uncomment" statements.)
 #  _
@@ -36,43 +36,46 @@ import math
 #   and run the program, checking that what gets printed is what you expect.
 ###############################################################################
 
-# print()
-# print("_TODO 3:")
-# print("4 + 8 evaluates to:   ", 4 + 8)
-# print("7 * 10 evaluates to:  ", 7 * 10)
-# print("1.53 + 8 evaluates to:", 1.53 + 8)
+print()
+print("_TODO 3:")
+print("4 + 8 evaluates to:   ", 4 + 8)
+print("7 * 10 evaluates to:  ", 7 * 10)
+print("1.53 + 8 evaluates to:", 1.53 + 8)
+
+print("30 / 5 evaluates to:", 30/5)
+print("23 - 8 evaluates to:", 23-8)
 
 ###############################################################################
-# TODO: 4.  [Do this when the video says to do so.]
+# done: 4.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 ###############################################################################
 
-# print()
-# print("_TODO 4:")
-# print("(4 + 2) * 3 evaluates to:", (4 + 2) * 3)
-# print("4 + (2 * 3) evaluates to:", 4 + (2 * 3))
-# print("4 + 2 * 3   evaluates to:", 4 + 2 * 3)
-# print("(4 - 2) + 3 evaluates to:", (4 - 2) + 3)
-# print("4 - (2 + 3) evaluates to:", 4 - (2 + 3))
-# print("4 - 2 + 3   evaluates to:", 4 - 2 + 3)
+print()
+print("_TODO 4:")
+print("(4 + 2) * 3 evaluates to:", (4 + 2) * 3)
+print("4 + (2 * 3) evaluates to:", 4 + (2 * 3))
+print("4 + 2 * 3   evaluates to:", 4 + 2 * 3)
+print("(4 - 2) + 3 evaluates to:", (4 - 2) + 3)
+print("4 - (2 + 3) evaluates to:", 4 - (2 + 3))
+print("4 - 2 + 3   evaluates to:", 4 - 2 + 3)
 
 ###############################################################################
-# TODO: 5.  [Do this when the video says to do so.]
+# done: 5.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 ###############################################################################
 
-# print()
-# print("_TODO 5:")
-# print("2 ** 10  evaluates to:", 2 ** 10)
-# print("10 ** 2  evaluates to:", 10 ** 2)
-# print("2 ** 0.5  evaluates to:", 2 ** 0.5)
-# print("10 ** -2  evaluates to:", 10 ** -2)
-# print("10 ** -0.5  evaluates to:", 10 ** -0.5, "(do you see why?")
+print()
+print("_TODO 5:")
+print("2 ** 10  evaluates to:", 2 ** 10)
+print("10 ** 2  evaluates to:", 10 ** 2)
+print("2 ** 0.5  evaluates to:", 2 ** 0.5)
+print("10 ** -2  evaluates to:", 10 ** -2)
+print("10 ** -0.5  evaluates to:", 10 ** -0.5, "(do you see why?")
 
 ###############################################################################
-# TODO: 6.  [Do this when the video says to do so.]
+# done: 6.  [Do this when the video says to do so.]
 #   Type some expressions of your own choosing that use combinations of:
 #     -- addition, subtraction
 #     -- multiplication, division
@@ -84,15 +87,16 @@ import math
 #  do Part 1 of the Moodle quiz (on Numbers, Arithmetic, and Precedence).
 ###############################################################################
 
-# print()
-# print("_TODO 6:")
+print()
+print("_TODO 6:")
+print(((24-19)**0.5)+(12**2))
 
 ###############################################################################
 # Part 2: Exceptions: Syntax and Run-Time Errors.
 ###############################################################################
 
 ###############################################################################
-# TODO: 7.  [Do this when the video says to do so.]
+# done: 7.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -104,12 +108,13 @@ import math
 #   and finally comment-out your statement to continue to the next _TODO.
 ###############################################################################
 
-# print()
-# print("_TODO 7:")
-# This is crazy!  Python will make no sense of it!
+print()
+print("_TODO 7:")
+#This is crazy!  Python will make no sense of it!
+#Print('hola wold')
 
 ###############################################################################
-# TODO: 8.  [Do this when the video says to do so.]
+# done: 8.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed, especially the last red line.
 #   Note that the error-output (in red) may (or may not) appear BEFORE the
@@ -118,13 +123,13 @@ import math
 #   Then comment-out the line that causes the run-time error.
 ###############################################################################
 
-# print()
-# print("_TODO 8:")
-# print("3 + 2 evaluations to:", 3 + 2)
-# print("3 / 0 evaluations to:", 3 / 0)
+print()
+print("_TODO 8:")
+print("3 + 2 evaluations to:", 3 + 2)
+#print("3 / 0 evaluations to:", 3 / 0)
 
 ###############################################################################
-# TODO: 9.  [Do this when the video says to do so.]
+# done: 9.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed, especially the last red line.
 #   Again note that the error-output (in red) may PRECEDE ordinary output.
@@ -133,12 +138,12 @@ import math
 #   and run the program again to see the result of running the line below it.
 ###############################################################################
 
-# print()
-# print("_TODO 9:")
-# print("3 / 'hello' evaluations to:", 3 / 'hello')
+print()
+print("_TODO 9:")
+#print("3 / 'hello' evaluations to:", 3 / 'hello')
 
 ###############################################################################
-# TODO: 10.  [Do this when the video says to do so.]
+# done: 10.  [Do this when the video says to do so.]
 #   Type some expressions of your own choosing that cause error messages.
 #   Then run the program, paying close attention to the last line
 #   of each error message (in red).
@@ -147,15 +152,16 @@ import math
 #  do Part 2 of the Moodle quiz (on Exceptions: Syntax and Run-Time Errors).
 ###############################################################################
 
-# print()
-# print("_TODO 10:")
+print()
+print("_TODO 10:")
+#print(100//ten_point_three)
 
 ###############################################################################
 # Part 3: Objects, Types, and Values.
 ###############################################################################
 
 ###############################################################################
-# TODO: 11.  [Do this when the video says to do so.]
+# done: 11.  [Do this when the video says to do so.]
 #   READ the following statements and PREDICT what they will produce as output.
 #   Then, uncomment them and run the program, checking your predictions
 #   and learning from any predictions that you got wrong
@@ -177,7 +183,7 @@ import math
 
 
 ###############################################################################
-# TODO: 12.  [Do this when the video says to do so.]
+# done: 12.  [Do this when the video says to do so.]
 #   Type an expression that involves addition, subtraction and multiplication
 #   (but NOT division, yet), using whole numbers (which are of type int).
 #   Then run the program, checking that what gets printed is what you expect.
@@ -191,15 +197,17 @@ import math
 #  type that results from division, even if both arguments are  int  objects?
 ###############################################################################
 
-# print()
-# print("_TODO 12:")
-# print("4.2 / 2.0 evaluations to:", 4.2 / 2.0)
-# print("4.2 / 2   evaluations to:", 4.2 / 2)
-# print("4 / 2     evaluations to:", 4 / 2)
-# print("3 / 2     evaluations to:", 3 / 2)
+print()
+print("_TODO 12:")
+print(type((24+19-20)*2))
+print(type((24+19-20)*2.1))
+print("4.2 / 2.0 evaluations to:", 4.2 / 2.0)
+print("4.2 / 2   evaluations to:", 4.2 / 2)
+print("4 / 2     evaluations to:", 4 / 2)
+print("3 / 2     evaluations to:", 3 / 2)
 
 ###############################################################################
-# TODO: 13.  [Do this when the video says to do so.]
+# done: 13.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -207,13 +215,16 @@ import math
 #  until you understand what those operators do.
 ###############################################################################
 
-# print()
-# print("_TODO 13:")
-# print("17 // 5   evaluations to:", 17 // 5)
-# print("17 % 5    evaluations to:", 17 % 5)
+print()
+print("_TODO 13:")
+print("17 // 5   evaluations to:", 17 // 5)
+print("17 % 5    evaluations to:", 17 % 5)
+
+print(23//5)
+print(99%100)
 
 ###############################################################################
-# TODO: 14.  [Do this when the video says to do so.]
+# done: 14.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -221,15 +232,15 @@ import math
 #  understand what the  +   and   *   operators do when applied to strings.
 ###############################################################################
 
-# print()
-# print("_TODO 14:")
-#
-# print("hello" + "goodbye girl")
-# print("big" * 20)
-# print(("hello " + "goodbye ") * 4)
+print()
+print("_TODO 14:")
+
+print("hello" + "goodbye girl")
+print("big" * 20)
+print(("hello " + "goodbye ") * 4)
 
 ###############################################################################
-# TODO: 15.  [Do this when the video says to do so.]
+# done: 15.  [Do this when the video says to do so.]
 #   Type a statement that prints:
 #     I'm not a bug, that's right!
 #   and then run the program, checking that it printed the above sentence
@@ -246,15 +257,17 @@ import math
 #   do Part 3 of the Moodle quiz (on Objects, Types, and Values).
 ###############################################################################
 
-# print()
-# print("_TODO 15:")
-
+print()
+print("_TODO 15:")
+print("I'm not a bug, that's right!")
+print('What does "yarborough" mean')
+print("I'm on "+'"pins and needles" about'+("'"+'"')*2+'.')
 ###############################################################################
 # Part 4: Names, Variables, and Assignment.
 ###############################################################################
 
 ###############################################################################
-# TODO: 16.  [Do this when the video says to do so.]
+# done: 16.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -268,23 +281,23 @@ import math
 #   that you defined previously.
 ###############################################################################
 
-# print()
-# print("_TODO 16:")
-# first_program = "Hello, world!"
-# print(first_program)
-# print(greeting)
-#
-# greeting = "Hello, earthlings"
-# print(greeting)
-# print(first_program + (greeting * 2))
-#
-# n = 3
-# print(first_program * n)
-# n = 2 * first_program
-# print(n + greeting)
+print()
+print("_TODO 16:")
+first_program = "Hello, world!"
+print(first_program)
+#print(greeting)
+
+greeting = "Hello, earthlings"
+print(greeting)
+print(first_program + (greeting * 2))
+
+n = 3
+print(first_program * n)
+n = 2 * first_program
+print(n + greeting)
 
 ###############################################################################
-# TODO: 17.  [Do this when the video says to do so.]
+# done: 17.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -301,18 +314,19 @@ import math
 #   Finally, try out your own assignment statements that yield run-time errors.
 ###############################################################################
 
-# print()
-# print("_TODO 17:")
-# r = 0
-# s = -9
-# t = s / r
-# y = "oops" + s
-# u = math.sqrt(-2)
-# v = (-2) ** 0.5
-# print(v)
+print()
+print("_TODO 17:")
+r = 0
+s = -9
+#t = s / r
+#y = "oops" + s
+#u = math.sqrt(-2)
+v = (-2) ** 0.5
+print(v)
+#x = "hola"+"hello"+25
 
 ###############################################################################
-# TODO: 18.  [Do this when the video says to do so.]
+# done: 18.  [Do this when the video says to do so.]
 #   Uncomment the following and then run the program,
 #   paying close attention to what gets printed.
 #  _
@@ -321,50 +335,50 @@ import math
 #   and run again to check your predictions.
 ###############################################################################
 
-# print()
-# print("_TODO 18:")
-# a = 45
-# 45 = a
-# b = 10
-# c = b + 20
-# b = c
-# print(a, b, c)
+print()
+print("_TODO 18:")
+a = 45
+#45 = a
+b = 10
+c = b + 20
+b = c
+print(a, b, c)
 
 ###############################################################################
-# TODO: 19.  [Do this when the video says to do so.]
+# done: 19.  [Do this when the video says to do so.]
 #   Uncomment the following and PREDICT what will get printed.
 #   Then run the program, checking to see whether your prediction is correct.
 ###############################################################################
 
-# print()
-# print("_TODO 19:")
-# x = 5
-# x = x + 1
-# print(x)
-#
-# x = x + 1
-# print(x)
-#
-# x = x + 1
-# print(x)
+print()
+print("_TODO 19:")
+x = 5
+x = x + 1
+print(x)
+
+x = x + 1
+print(x)
+
+x = x + 1
+print(x)
 
 ###############################################################################
-# TODO: 20.  [Do this when the video says to do so.]
+# done: 20.  [Do this when the video says to do so.]
 #   Uncomment the following and PREDICT what will get printed.
 #   (Hint: what gets printed is  NOT  75 10.)
 #   Then run the program, checking to see whether your prediction is correct.
 ###############################################################################
 
-# print()
-# print("_TODO 20:")
-# x = 10
-# y = 75
-# x = y
-# y = x
-# print(x, y)
+print()
+print("_TODO 20:")
+x = 10
+y = 75
+x = y
+y = x
+print(x, y)
 
 ###############################################################################
-# TODO: 21.  [Do this when the video says to do so.]
+# done: 21.  [Do this when the video says to do so.]
 #  The statements below make x and y refer to random integers between 1 and 99,
 #  then prints the values of x and y.
 #  _
@@ -380,8 +394,13 @@ import math
 #  (on Names, Variables, and Assignment).
 ###############################################################################
 
-# print()
-# print("_TODO 22:")
-# x = random.randint(1, 99)
-# y = random.randint(1, 99)
-# print(x, y)
+print()
+print("_TODO 22:")
+x = random.randint(1, 99)
+y = random.randint(1, 99)
+print(x, y)
+z = 0
+z = y
+y=x
+x=z
+print(x,y)
