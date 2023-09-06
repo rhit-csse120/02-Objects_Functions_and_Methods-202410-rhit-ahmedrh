@@ -29,7 +29,7 @@ def main():
     """
     window = rg.TurtleWindow()
     # Put your TESTS immediately below this line, as directed by _TODO_s below.
-    print(pythagorean(4, 5))
+    print(pythagorean(3, 4))
     print(pythagorean(2, 3))
     turtle_maker('red',1)
     turtle_maker('purple',20)
